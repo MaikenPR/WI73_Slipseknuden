@@ -30,3 +30,4 @@ app.use(require('./routes/produkter'));
 
 app.listen(port);
 console.log(`8080 is the magic port http://localhost:${port}/`);
+//test
