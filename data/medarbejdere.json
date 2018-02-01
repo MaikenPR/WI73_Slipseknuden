@@ -1,0 +1,26 @@
+[
+    {
+        "Billede": "anders.jpg",
+        "Navn": "Anders Hansen",
+        "Rolle": "Direktør",
+        "Email": "chefen@slipseknuden.eu"
+    }, 
+    {
+        "Billede": "annelise.jpg",
+        "Navn": "Annelise Johnson",
+        "Rolle": "Sekretær",
+        "Email": "info@@slipseknuden.eu"
+    },
+    {
+        "Billede": "jan.jpg",
+        "Navn": "Jan Frandsen",
+        "Rolle": "Sælger",
+        "Email": "jf@slipseknuden.eu "
+    },
+    {
+        "Billede": "joe.jpg",
+        "Navn": "Joe Baylie",
+        "Rolle": "Sælger",
+        "Email": "jb@slipseknuden.eu"
+    }
+]

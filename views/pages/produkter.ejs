@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <% include ../partials/head_partials %>
+</head>
+
+<body>
+    <header>
+        <% include ../partials/header_partials %>
+    </header>
+
+    <main class="col-md-12">
+        <% include ../partials/sidebar_partials %>
+
+            
+                <article class="col-md-6 col-md-offset-1">
+                    <h1>Alle Produkter</h1>
+                  
+                </article>
+           
+
+            
+                <section class="col-md-7 col-md-offset-1">
+                    <% slips.forEach(function(etSlips) { %>
+                        <div class="col-md-4">
+                            <img class="forsideSlips" src="img/slips/<%= etSlips.Billede %>" alt="">
+                            <h3>
+                                <%= etSlips.Type %>
+                            </h3>
+                            <p>
+                                <%= etSlips.Navn %>
+                            </p>
+                            <p>
+                                <%= etSlips.Beskrivelse %>
+                            </p>
+                            <p>
+                                <%= etSlips.Pris %> Kr.
+                            </p>
+                            <button id="info-btn" class="btn-default">Info</button>
+                        </div>
+                        <% }); %>
+                </section>
+            
+
+    </main>
+
+    <footer>
+        <% include ../partials/footer_partials %>
+    </footer>
+</body>
+
+</html>
