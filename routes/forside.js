@@ -1,9 +1,11 @@
 var express = require('express');
 var router = express.Router();
+var log = require('../my_modules/log.js');
 
 
 // Forsides
 router.get('/', function (req, res) {
+	log.writeLog('test');
 	let adresse = require('../data/adresse.json');
 	let slips = require('../data/slips.json');
 	let slipsOutput = slips.slice(0,3);
