@@ -1,0 +1,18 @@
+{
+  "slips": [
+    {
+      "Billede": "noname.jpg",
+      "Type": "asian style",
+      "Navn": "Fiskernes forlængelse",
+      "Beskrivelse": "Lidt lækkert på en mandag",
+      "Pris": 400
+    },
+    {
+      "Billede": "noname.jpg",
+      "Type": "asian style",
+      "Navn": "Sweet monday",
+      "Beskrivelse": "Lidt lækkert på en mandag",
+      "Pris": 666666666
+    }
+  ]
+}

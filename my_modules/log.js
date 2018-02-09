@@ -1,11 +1,13 @@
 const fs = require("fs");
 
 exports.writeLog = function (tekst) {
-    fs.appendFile("./log/log.txt", tekst + "\r\n", function (err) {
+    var date = new Date();
+    tekst = date + " " + tekst + "\r\n";
+    fs.appendFile("./log/log.txt", tekst, function (err) {
         if (err){
             console.error(err);
         } else{
-            console.log("skrevet til log");
+            // console.log("skrevet til log");
         }
     })
 }
