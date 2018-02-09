@@ -3,16 +3,44 @@
     {
       "Billede": "noname.jpg",
       "Type": "asian style",
-      "Navn": "Fiskernes forlængelse",
+      "Navn": "Sweet monday",
       "Beskrivelse": "Lidt lækkert på en mandag",
-      "Pris": 400
+      "Pris": 1
     },
     {
       "Billede": "noname.jpg",
       "Type": "asian style",
       "Navn": "Sweet monday",
       "Beskrivelse": "Lidt lækkert på en mandag",
-      "Pris": 666666666
+      "Pris": 2
+    },
+    {
+      "Billede": "noname.jpg",
+      "Type": "asian style",
+      "Navn": "Sweet monday",
+      "Beskrivelse": "Lidt lækkert på en mandag",
+      "Pris": 3
+    },
+    {
+      "Billede": "noname.jpg",
+      "Type": "asian style",
+      "Navn": "Sweet monday",
+      "Beskrivelse": "Lidt lækkert på en mandag",
+      "Pris": 4
+    },
+    {
+      "Billede": "noname.jpg",
+      "Type": "asian style",
+      "Navn": "Sweet monday",
+      "Beskrivelse": "Lidt lækkert på en mandag",
+      "Pris": 5
+    },
+    {
+      "Billede": "noname.jpg",
+      "Type": "asian style",
+      "Navn": "Sweet monday",
+      "Beskrivelse": "Lidt lækkert på en mandag",
+      "Pris": 6
     }
   ]
 }
